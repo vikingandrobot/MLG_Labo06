@@ -162,7 +162,7 @@ class ImageFeatureExtractor:
                     else:
                         alt = 'alt=\"No image\"'
                         style = 'style=\"width:100px;height:100px;\"'
-                        html_file.write(img)
+                        #html_file.write(img)
                     html_file.write('</td>')
                 html_file.write('</tr>')
             html_content = """</table>
